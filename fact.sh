@@ -1,5 +1,3 @@
-vi fact.sh
-
 #!/bin/bash
 
 num=$1
