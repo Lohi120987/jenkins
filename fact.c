@@ -1,25 +1,4 @@
 #include <stdio.h>
-
-biggest2()
-{
-    int num1, num2;
-
-    printf("Enter two integers :");
-    scanf("%d%d", &num1, &num2);
-
-    if (num1 > num2)
-    {
-        printf("Largest number is %d.", num1);
-    }
-    else
-    {
-        printf("Largest number is %d.", num2);
-    }
-
-    // return 0;
-}
-[ec2-user@ip-172-31-16-247 build_tool]$ cat fact.c
-#include <stdio.h>
 factorial() {
     int n, i;
     unsigned long long fact = 1;
